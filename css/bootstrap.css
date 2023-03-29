@@ -7803,7 +7803,7 @@
   }
   
   .sr-only {
-    position: absolute;
+    position: relative;
     width: 1px;
     height: 1px;
     padding: 0;
@@ -7814,7 +7814,7 @@
   }
   
   .sr-only-focusable:active, .sr-only-focusable:focus {
-    position: static;
+    
     width: auto;
     height: auto;
     overflow: visible;
